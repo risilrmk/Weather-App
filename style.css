@@ -25,6 +25,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .search input{
   border: 0;
@@ -45,6 +46,10 @@ body{
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
 }
 .search button img{
